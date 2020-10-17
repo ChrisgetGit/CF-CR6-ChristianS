@@ -1,0 +1,43 @@
+
+#main-container{
+	background-color: #151515;
+}
+
+img{
+	width: 15vh;
+	height: 15vh;
+	display: block;
+}
+
+.head-container{
+}
+
+.list-group{
+	min-height: 100%;
+}
+
+.pic-container{
+	display: flex;
+	background-color: gray;
+	height: 20vh;
+	align-items: end;
+}
+
+.list-group-item{
+	align-items: end;
+}
+
+.card-body{
+	min-height: 47vh;
+	background-color: #343a40;
+}
+
+h3{
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    display:none;
+  }
+}
